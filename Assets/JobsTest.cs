@@ -99,7 +99,7 @@ public class JobsTest : MonoBehaviour
     public static void DumbTest()
     {
         float value = 0f;
-        for (int i = 0; i < 600000; ++i)
+        for (int i = 0; i < 6e4; ++i)
         {
             value += Mathf.Exp(i) * Mathf.Sqrt(value);
         }
